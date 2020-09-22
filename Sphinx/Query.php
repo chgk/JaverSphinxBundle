@@ -350,6 +350,16 @@ class Query
     }
 
     /**
+     * Order by rand
+     * @return Query
+     */
+    public function orderByRand()
+    {
+        $this->orderBy[] = ['RAND()', ''];
+        return $this;
+    }
+
+    /**
      * Set offset.
      *
      * @param integer $offset
