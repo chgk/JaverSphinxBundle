@@ -1,5 +1,5 @@
 {
-    "name": "javer/sphinx-bundle",
+    "name": "chgk/sphinx-bundle",
     "type": "symfony-bundle",
     "description": "Provides integration of Sphinx search engine with Symfony using SphinxQL",
     "keywords": ["sphinx", "sphinxql", "search", "symfony", "symfony2", "doctrine2"],
